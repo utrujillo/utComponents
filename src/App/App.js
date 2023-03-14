@@ -1,5 +1,7 @@
 import './App.css'
-import UTButton from '../components/UTButton'
+
+import UTButton from 'components/UTButton'
+// import UTButton from '../components/UTButton'
 import UTInputText from '../components/UTInputText'
 
 function App() {
