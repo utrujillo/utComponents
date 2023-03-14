@@ -1,17 +1,14 @@
+import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import AppRouter from 'routers/AppRouter'
 import './App.css'
 
-import UTButton from 'components/UTButton'
-// import UTButton from '../components/UTButton'
-import UTInputText from '../components/UTInputText'
-
 function App() {
-  return (
-    <div className="App">
-      Hola mundo desde React
-      <UTButton />
-      <UTInputText />
-    </div>
-  )
+	return (
+    	<BrowserRouter>
+     		<AppRouter />
+    	</BrowserRouter>
+  	)
 }
 
 export default App
