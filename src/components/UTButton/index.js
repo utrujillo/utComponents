@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './index.module.scss'
 
 const UTButton = (props) => {
-    const { value, css_styles, onClick } = props
+    const {value, css_styles, onClick} = props
     const custom_style = css_styles?.length == 0 ? classes?.utbutton : css_styles?.custom_btn
 
     return (
@@ -10,7 +10,7 @@ const UTButton = (props) => {
             type="button"
             value={value}
             className={custom_style}
-            onClick={ onClick }
+            onClick={onClick}
         />
     )
 }
