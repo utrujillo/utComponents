@@ -3,7 +3,7 @@ import classes from './index.module.scss'
 
 const UTButton = (props) => {
     const {value, css_styles, onClick} = props
-    const custom_style = css_styles?.length == 0 ? classes?.utbutton : css_styles?.custom_btn
+    const custom_style = css_styles?.length === 0 ? classes?.utbutton : css_styles?.custom_btn
 
     return (
         <input
