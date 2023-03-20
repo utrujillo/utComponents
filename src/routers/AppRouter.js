@@ -1,13 +1,13 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Home from 'pages/public/Home'
+import PublicRouter from 'routers/PublicRouter'
 
 const AppRouter = () => {
     return (
         <Routes>
             <Route
                 path='*'
-                element={<Home />}
+                element={<PublicRouter />}
             />
         </Routes>
     )
