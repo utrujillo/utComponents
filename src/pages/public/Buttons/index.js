@@ -1,6 +1,6 @@
 import React from 'react'
-import UTCard from 'components/UTCard'
-import UTButton from 'components/UTButton'
+import UTCard from 'components/widgets/UTCard'
+import UTButton from 'components/Forms/UTButton'
 
 const Buttons = () => {
     return (
