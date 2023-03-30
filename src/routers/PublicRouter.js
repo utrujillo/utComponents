@@ -6,8 +6,8 @@ import Buttons from 'pages/public/Buttons'
 const PublicRouter = () => {
     return(
         <Routes>
-            <Route path='/' element={<Buttons />} />
-            <Route path='/buttons' element={<Home />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/buttons' element={<Buttons />} />
         </Routes>
     )
 }
