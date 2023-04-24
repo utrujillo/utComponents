@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from 'pages/public/Home'
 import Buttons from 'pages/public/Buttons'
-import UTNavbar from 'components/CustomWidgets/UTNavbar'
+import UTNavbar from 'components/Widgets/UTNavbar'
 
 const PublicRouter = () => {
     return(
